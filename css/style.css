@@ -1,8 +1,10 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 /*home*/
-
+html{
+    scroll-behavior: smooth;
+}
 .carousel {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     overflow:hidden;
 }
@@ -23,6 +25,7 @@
     padding-bottom: 20px;
     text-transform: uppercase;
 }
+
 ul{
   margin:0;
   padding:0;

@@ -4,9 +4,15 @@ html{
     scroll-behavior: smooth;
 }
 .carousel {
+    margin-top: 5%;
     height: 100%;
     width: 100%;
     overflow:hidden;
+}
+@media screen and (max-width:768px){
+    .carousel {
+        margin-top:15%;
+    }
 }
 .carousel .carousel-inner {
     height:100%;    
